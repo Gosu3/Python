@@ -1,10 +1,11 @@
 inventory = {
-        'gold': 500    
-    
+        'gold': 500,
+        'pouch' : ['flint', 'twine', 'gemstone'],
+        'backpack': ['xylophone', 'dagger', 'bedroll', 'bread loaf']
 }
 
-new_key = 'key4'
-new_value = 'value4'
+new_key = 'pocket'
+new_value = 'seashell, strange berry, lint'
 
 inventory[new_key]= new_value
 
@@ -19,7 +20,7 @@ print(inventory)
 
 #sắp xếp item của key trong từ điển
 
-target_key = 'value3'
+target_key = 'pack'
 
 sort_values = sorted(inventory[target_key])
 
