@@ -1,0 +1,44 @@
+1. Lớp (Class) và Đối Tượng (Object):
+Lớp (Class): Định nghĩa một kiểu dữ liệu mới với các thuộc tính và phương thức của nó.
+Đối Tượng (Object): Một thể hiện của một lớp, được tạo ra từ lớp và có thể thực hiện các phương thức của lớp.
+
+2. Thuộc Tính (Attribute) và Phương Thức (Method):
+Thuộc Tính (Attribute): Đặc điểm của một đối tượng, thường là các biến.
+Phương Thức (Method): Hành động mà đối tượng có thể thực hiện, thường là các hàm.
+
+3. Encapsulation (Đóng Gói):
+Private và Public: Sử dụng dấu gạch chân đơn (_) để chỉ định thuộc tính hoặc phương thức là private. Trong Python, private không phải là hoàn toàn private, nó chỉ là một hướng dẫn cho lập trình viên.
+Encapsulation: Bảo vệ thông tin và ẩn chi tiết triển khai.
+
+4. Kế Thừa (Inheritance):
+Kế Thừa: Lớp mới có thể kế thừa thuộc tính và phương thức từ một lớp đã tồn tại.
+Lớp Cha và Lớp Con: Lớp con được xây dựng dựa trên một lớp cha.
+
+5. Đa Hình (Polymorphism):
+Đa Hình: Cùng một phương thức có thể được triển khai ở nhiều lớp khác nhau.
+Overriding: Lớp con có thể viết đè lên phương thức của lớp cha.
+
+6. Phương Thức Đặc Biệt (Special Methods):
+init(): Phương thức khởi tạo, được gọi khi một đối tượng được tạo.
+str(): Chuyển đối tượng thành chuỗi.
+len(): Trả về độ dài của đối tượng.
+
+7. Đa Kế Thừa (Multiple Inheritance):
+Một lớp có thể kế thừa từ nhiều lớp khác nhau.
+
+8. Abstract Classes và Interfaces:
+Abstract Classes: Lớp mà không thể tạo đối tượng từ đó. Các phương thức trong lớp trừu tượng có thể hoặc không có phần thân.
+Interfaces: Một tập hợp các phương thức mà các lớp khác nhau có thể triển khai.
+
+9. Mixin:
+Một mixin là một lớp hoặc đối tượng được thiết kế để mở rộng (extend) hoặc cung cấp một số tính năng cho một lớp khác.
+
+10.Decorator và Property:
+Decorator: Sử dụng để thay đổi hoặc mở rộng hành vi của hàm hoặc phương thức.
+Property: Tạo ra các thuộc tính có thể đọc và ghi như các thuộc tính thông thường, nhưng thực sự là các phương thức đặc biệt.
+Namespace và Scope:
+Namespace: Một vùng chứa chứa các tên biến và tên hàm.
+Scope: Phạm vi của một biến, xác định nơi biến có thể được truy cập.
+Ghi Chú Cuối Cùng:
+super(): Được sử dụng để gọi phương thức của lớp cha trong lớp con.
+self: Tham chiếu đến đối tượng hiện tại.

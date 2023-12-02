@@ -9,6 +9,7 @@ def validate_password (password):
         return False
     if not re.search("[0-9]", password):
         return False
+
     return True
 
 
